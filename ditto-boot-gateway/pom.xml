@@ -11,5 +11,14 @@
 
     <artifactId>ditto-boot-gateway</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>io.jovi.ditto</groupId>
+            <artifactId>ditto-boot-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.jovi.ditto</groupId>
+            <artifactId>ditto-boot-service</artifactId>
+        </dependency>
+    </dependencies>
 </project>

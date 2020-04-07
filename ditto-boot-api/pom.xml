@@ -11,5 +11,13 @@
 
     <artifactId>ditto-boot-api</artifactId>
 
+    <dependencies>
+        <!--lombok start-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <!--lombok end-->
+    </dependencies>
 
 </project>

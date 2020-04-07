@@ -11,5 +11,20 @@
 
     <artifactId>ditto-boot-service</artifactId>
 
-
+    <dependencies>
+        <!--ditto start-->
+        <dependency>
+            <groupId>io.jovi.ditto</groupId>
+            <artifactId>ditto-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.jovi.ditto</groupId>
+            <artifactId>ditto-tools</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.jovi.ditto</groupId>
+            <artifactId>ditto-cache</artifactId>
+        </dependency>
+        <!--ditto end-->
+    </dependencies>
 </project>
