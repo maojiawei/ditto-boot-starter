@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>io.jovi.ditto</groupId>
+        <artifactId>ditto-framework</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>io.jovi.ditto</groupId>
+    <artifactId>ditto-boot-starter</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>ditto-boot-api</module>
+        <module>ditto-boot-service</module>
+        <module>ditto-boot-ops</module>
+        <module>ditto-boot-gateway</module>
+    </modules>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <ditto.version>1.0-SNAPSHOT</ditto.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <!--ditto boot start-->
+            <dependency>
+                <groupId>io.jovi.ditto</groupId>
+                <artifactId>ditto-boot-service</artifactId>
+                <version>${ditto.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.jovi.ditto</groupId>
+                <artifactId>ditto-boot-api</artifactId>
+                <version>${ditto.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.jovi.ditto</groupId>
+                <artifactId>ditto-boot-gateway</artifactId>
+                <version>${ditto.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.jovi.ditto</groupId>
+                <artifactId>ditto-boot-ops</artifactId>
+                <version>${ditto.version}</version>
+            </dependency>
+            <!--ditto boot end-->
+        </dependencies>
+    </dependencyManagement>
+
+
+</project>
