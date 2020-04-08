@@ -20,6 +20,7 @@
         <module>ditto-boot-service</module>
         <module>ditto-boot-ops</module>
         <module>ditto-boot-gateway</module>
+        <module>ditto-boot-code</module>
     </modules>
 
     <properties>
