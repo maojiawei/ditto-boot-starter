@@ -16,6 +16,10 @@
             <groupId>io.jovi.ditto</groupId>
             <artifactId>ditto-system</artifactId>
         </dependency>
+        <dependency>
+            <groupId>io.jovi.ditto</groupId>
+            <artifactId>ditto-boot-service</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

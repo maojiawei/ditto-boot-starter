@@ -1,0 +1,18 @@
+server:
+  port: 8000
+jasypt:
+  encryptor:
+    password: ditto
+spring:
+  application:
+    name: ditto
+  datasource:
+    url: jdbc:mysql://47.96.9.221:3306/ditto?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false
+    username: root
+    password: 'ENC(qLFCGrfhex35S4hoFAlIrbi1pFea2nHP)'
+    driverClassName: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+ditto:
+  table:
+    prefix: 'ditto_'
+
